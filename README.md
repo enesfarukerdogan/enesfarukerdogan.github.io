@@ -15,7 +15,7 @@ Hi! I'm Enes, a dedicated Software Engineer and Senior Android Developer with a 
 ---
 
 ### 💼 Professional Experience
-* **Android Application Developer | 4A Labs Teknoloji** (03.2025 - 04.2026)
+* **Android Developer | 4A Labs Teknoloji** (03.2025 - 04.2026)
     * Contributed to the development, bug fixing, and publication processes of the CarrefourSA Online Market application.
 * **Mobile Application Developer | Code And More** (12.2019 - 01.2025)
     * **Public Sector & Health:** Played an active role in the Android development team for the Ministry of Health's *Hayat Eve Sığar* app. Managed maintenance and development for Sampaş A.Ş. projects, including *Cep Başkan*, *Cep Vatandaş*, and *Mobil Numarataj*.
