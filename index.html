@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enes Faruk Erdoğan | Mobil Uygulama Geliştiricisi</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <script src="assets/js/strings.js" defer></script>
+    <script src="assets/js/links.js" defer></script>
+
+    <script src="assets/js/app-card.js" defer></script>
+
+    <script src="assets/js/config.js" defer></script>
+</head>
+
+<body>
+
+    <section id="home" class="full-screen-section">
+        <nav class="navbar">
+            <a href="#" class="nav-logo" data-text-key="navLogo"></a>
+            <ul class="nav-links">
+                <li><a href="#apps" data-text-key="navLinkApps"></a></li>
+                <li><a href="#next-project" data-text-key="navLinkNextProject"></a></li>
+                <li><a href="#stack" data-text-key="navLinkStack"></a></li>
+            </ul>
+        </nav>
+
+        <main class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title" data-text-key="heroTitle"></h1>
+                <p class="hero-description" data-text-key="heroDescription"></p>
+
+                <div class="hero-buttons">
+                    <a href="#" class="store-btn" data-app-key="featured-ios" target="_blank">
+                        <img src="assets/favicons/hero-apple-logo.svg" alt="Download on the App Store"
+                            class="hero-store-img">
+                    </a>
+                    <a href="#" class="store-btn" data-app-key="featured-android" target="_blank">
+                        <img src="assets/favicons/hero-google-logo.svg" alt="Get it on Google Play"
+                            class="hero-store-img">
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-image-container">
+                <img src="assets/images/hero-mockup.png" alt="Featured App Mockup" class="hero-mockup">
+            </div>
+        </main>
+    </section>
+
+    <section id="apps" class="apps-section full-screen-section">
+        <h2 class="section-title" data-text-key="appsSectionTitle"></h2>
+        <div id="apps-grid" class="apps-grid"></div>
+    </section>
+
+    <section id="next-project" class="next-project-section full-screen-section">
+        <h2 class="section-title" data-text-key="nextProjectSectionTitle"></h2>
+
+        <div class="next-project-card-wrapper">
+            <div class="next-project-card">
+                <div class="project-teaser-content">
+                    <div class="card-top-row">
+                        <span class="badge-status" data-text-key="nextProjectStatus"></span>
+                    </div>
+                    <h3 class="project-teaser-title" data-text-key="nextProjectTitle"></h3>
+                    <p class="project-teaser-desc" data-text-key="nextProjectDescription"></p>
+
+                    <div class="progress-wrapper">
+                        <div class="progress-info">
+                            <span data-text-key="progressLabel"></span>
+                            <span class="progress-percent" id="next-project-percent">0%</span>
+                        </div>
+                        <div class="progress-container">
+                            <div class="progress-bar" id="next-project-bar" style="width: 0%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="project-tech-tags" id="next-project-tags"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="stack-container" class="full-screen-section">
+
+        <div id="stack" class="stack-section">
+            <h2 class="section-title" data-text-key="stackSectionTitle"></h2>
+            <p class="stack-subtitle" data-text-key="stackSubTitle"></p>
+            <div class="tech-row" id="tech-logos-container"></div>
+        </div>
+
+        <footer class="footer">
+            <div class="footer-content-wrapper">
+                <div class="footer-left">
+                    <span class="footer-logo" data-text-key="navLogo"></span>
+                    <p class="copyright" data-text-key="footerCopyright"></p>
+                </div>
+                <div class="social-links">
+                    <a href="#" id="footer-link-linkedin" target="_blank" class="footer-link" aria-label="LinkedIn">
+                        <img src="" alt="LinkedIn" class="footer-social-icon"
+                            onerror="this.src='assets/images/default-icon.png'">
+                    </a>
+                    <a href="#" id="footer-link-github" target="_blank" class="footer-link" aria-label="GitHub">
+                        <img src="" alt="GitHub" class="footer-social-icon"
+                            onerror="this.src='assets/images/default-icon.png'">
+                    </a>
+                </div>
+            </div>
+        </footer>
+
+    </section>
+
+</body>
+
+</html>
